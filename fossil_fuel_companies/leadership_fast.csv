@@ -1,0 +1,299 @@
+company,individual,role,start_date,end_date,is_current,is_leadership,littlesis_person_id,littlesis_company_id,company_matched_name
+Alliance Resource Partners,Brian L. Cantrell,Senior VP and Chief Financial Officer,,,True,True,331417,74466,"Alliance Resource Partners, LP"
+Alliance Resource Partners,Joe Craft,President,,,True,True,74111,74466,"Alliance Resource Partners, LP"
+Alpha Natural Resources,William J Crowley Jr,Board Member,2004-12-01,,True,True,209259,90036,"Alpha Natural Resources, LLC"
+Alpha Natural Resources,Kevin S Crutchfield,Executive Vice President,2003-03-00,,,True,12017,90036,"Alpha Natural Resources, LLC"
+Coal Resources,Ian Plimer,Director,2012-00-00,,True,True,203704,359325,Queensland Coal Investment Holdings Ltd
+Coal Services,Jonathan Vandervoort,Company Secretary,2001-04-00,2008-10-00,False,False,367079,364889,Port Waratah Coal Services Limited
+Coal Services,Jonathan Vandervoort,Chief Financial Officer,2001-04-00,2008-10-00,False,True,367079,364889,Port Waratah Coal Services Limited
+Coal Services,Eileen Doyle,Chairman,1998-12-00,2009-10-00,False,True,378319,364889,Port Waratah Coal Services Limited
+International Industries,Herbert K Parker,"EVP, Chief Financial Officer",2008-00-00,2017-00-00,False,True,8414,598,"Harman International Industries, Incorporated"
+International Industries,Brian F Carroll,Director,2007-00-00,,False,True,8419,598,"Harman International Industries, Incorporated"
+International Industries,Ralph Santana,Chief Marketing Officer,2013-06-00,,True,True,190499,598,"Harman International Industries, Incorporated"
+International Industries,John W Diercksen,,2013-06-00,,True,False,59703,598,"Harman International Industries, Incorporated"
+L&L Energy,Larry Smyers,Petroleum Geologist and Geophysicist,,,True,False,114358,90449,D&L Energy Group
+L&L Energy,David I Rice,Production Manager,,,True,True,114356,90449,D&L Energy Group
+L&L Energy,Kartha L James,Vice President of Corporate Development,,,True,True,114352,90449,D&L Energy Group
+Ohio Coal,Mike Carey,President,1999-00-00,2012-00-00,False,True,413525,413526,Ohio Coal Association
+Ohio Coal,Mike Carey,board chair,2012-00-00,,True,True,413525,413526,Ohio Coal Association
+Orion Inc,James D Leslie,,2013-05-00,,False,False,123994,109282,"Orion Energy Systems, Inc."
+Appalachian Power ^,Brad Hall,president of external affairs,,,,True,422465,211426,Appalachian Power Company
+West Oil,Anne Blankenship,Executive director,,,True,True,328838,85658,West Virginia Oil and Natural Gas Association
+West Oil,Kelly Moss,director,,,True,True,146539,85658,West Virginia Oil and Natural Gas Association
+Alliant Energy,William D Harvey,CEO,,,False,True,8543,610,Alliant Energy
+Entergy,Alfred Galindo,Lighting Sales Manager,,,True,True,325652,325434,Entergy Louisiana
+Entergy,Daryn Bovard,Public Affairs Executive,2012-00-00,,True,True,325578,325434,Entergy Louisiana
+Entergy,Paul Girard,"Director, Resource Planning and Market Operations",,,True,True,325576,325434,Entergy Louisiana
+Entergy,Eduardo Jimenez,"Director, Business & Economic Development",,,True,True,325224,325434,Entergy Louisiana
+Sempra Energy,Jeffrey W. Martin,President & CEO,,,True,True,282455,233,Sempra
+Sempra Energy,Cynthia J Warner,,,,True,False,100413,233,Sempra
+Sempra Energy,Michael N Mears,,,,True,False,85867,233,Sempra
+Sempra Energy,H R McMaster,Advisor,,,True,False,112407,233,Sempra
+Centaurus Energy,John D. Arnold,founder,,,,True,396890,66937,Centaurus Energy
+Antero Resources,Mark D Mauz,"Vice President, Gathering",,2015-00-00,False,True,302464,98667,Antero Resources
+Antero Resources,James R Levy,Independent Director,,2015-00-00,False,True,94097,98667,Antero Resources
+Antero Resources,Jonathan L Grannis,"Co-Head, Geology Department",,2015-00-00,False,True,295318,98667,Antero Resources
+Breitburn Energy,Gregory Brown,Executive,,,True,True,243349,67353,BreitBurn Energy Company
+Breitburn Energy,Howard I Hoffen,,,,True,False,65149,67353,BreitBurn Energy Company
+Burlington Resources,Bobby S Shackouls,Chairman,1997-00-00,2006-00-00,,True,1095,66830,Burlington Resources Inc.
+Burlington Resources,Bobby S Shackouls,COO,1993-00-00,1994-00-00,,False,1095,210984,Burlington Resources Oil & Gas Company LP
+Burlington Resources,Jean J. Antonides,,,,False,False,195050,210984,Burlington Resources Oil & Gas Company LP
+Burlington Resources,John A Williams,Senior Vice President of Exploration,1998-07-00,2000-12-00,,True,210985,210984,Burlington Resources Oil & Gas Company LP
+Cimarex Energy,Richard S Dinkins,Vice President / Head,2003-00-00,,False,True,123831,100215,Cimarex Energy Co
+Cimarex Energy,KATHLEEN A. HOGENSON,,,,True,False,381975,100215,Cimarex Energy Co
+Cimarex Energy,Krista L Johnson,Vice President / Head,2014-00-00,,False,True,321591,100215,Cimarex Energy Co
+Cimarex Energy,CHRIS CLASON,,,,True,False,385724,100215,Cimarex Energy Co
+Continental Resources,Harold G Hamm,,,,True,False,12790,381833,Continental Resources
+Continental Resources,LON MCCAIN,,,,True,False,383840,381833,Continental Resources
+Encore Acquisition,Ted Collins Jr,Chairman of the Governance Committee ,,,True,True,123587,49427,Encore Acquisition Company
+Encore Acquisition,I Jon Brumley,Chairman of the Board,1998-00-00,,True,True,49428,49427,Encore Acquisition Company
+Graham Corp,Helen H Berkeley,director,1998-00-00,,True,True,155690,52195,Graham Corporation
+Hunt Oil,James Oberwetter,SVP,,,False,True,102184,100242,Hunt Oil Company
+Maralo LLC,Mary Ralph Lowe,CEO,1973-00-00,,True,True,123039,210760,Maralo LLC
+Nexen Inc,Kim McKenzie,CIO,2007-00-00,,,False,302874,79106,Nexen Inc
+Nexen Inc,Changbo Zheng,Assistant Pres,,2015-00-00,,False,314569,79106,Nexen Inc
+Petco Petroleum Corp,Jay Bergman,Founder,,,,True,188459,195915,Petco Petroleum Corp
+Southwestern Energy,DENIS J. WALSH,,,,True,False,385317,283841,Southwestern Energy Co
+Union Pacific Resources Group,V Richard Eales,Executive Vice President ,1995-00-00,1999-00-00,False,True,100384,38425,Union Pacific Resources Group Inc.
+Union Pacific Resources Group,V Richard Eales,Executive Vice President,,,False,True,100384,38425,Union Pacific Resources Group Inc.
+Lp Gas,Bobby S Shackouls,COO,1993-00-00,1994-00-00,,False,1095,210984,Burlington Resources Oil & Gas Company LP
+Lp Gas,Jean J. Antonides,,,,False,False,195050,210984,Burlington Resources Oil & Gas Company LP
+Lp Gas,John A Williams,Senior Vice President of Exploration,1998-07-00,2000-12-00,,True,210985,210984,Burlington Resources Oil & Gas Company LP
+Lp Gas,Steven J Goldman,,,,,False,241488,241491,Star Gas Partners LP
+Lp Gas,Paul Biddelman,Director,1999-00-00,2006-00-00,False,True,129670,130168,Star Gas LP
+Scott Gas,Seymour S Preston III,Board of Directors,,,True,True,10710,282517,Scott Specialty Gas Corporation
+Suburban Propane,Daniel S Bloomstein,Controller,2014-04-00,,True,False,192161,112385,"Suburban Propane Partners, L.P."
+Suburban Propane,Sandra N Zwickel,Vice President,2013-11-00,,True,True,192162,112385,"Suburban Propane Partners, L.P."
+Amoco,David Nagel,EVP,2009-00-00,2013-00-00,False,True,106280,34803,BP America Inc
+Amoco,Albert Keller,Vice President,,,True,True,353965,34803,BP America Inc
+Amoco,C Heidi Grether,"General Manager, Gulf Coast External Affairs",2012-03-01,2014-03-01,False,True,232988,34803,BP America Inc
+Amoco,W Michael Griffin,"Research Scientist, Biotechnology",1980-00-00,1990-00-00,False,False,176937,34803,BP America Inc
+BP Amoco,David Nagel,EVP,2009-00-00,2013-00-00,False,True,106280,34803,BP America Inc
+BP Amoco,Albert Keller,Vice President,,,True,True,353965,34803,BP America Inc
+BP Amoco,C Heidi Grether,"General Manager, Mississippi External Affairs",2010-08-01,2012-03-01,False,True,232988,34803,BP America Inc
+BP Amoco,C Heidi Grether,"General Manager, Gulf Coast External Affairs",2012-03-01,2014-03-01,False,True,232988,34803,BP America Inc
+BP Amoco,W Michael Griffin,"Research Scientist, Biotechnology",1980-00-00,1990-00-00,False,False,176937,34803,BP America Inc
+Frontier Oil Corporation,James S Palmer,Director,,,False,True,6972,464,Frontier Oil Corporation
+Frontier Oil Corporation,Franklin Myers,,2009-11-00,,True,False,7249,464,Frontier Oil Corporation
+Marathon Petroleum,JAMES R. WILKINS,,,,True,False,384612,87433,Marathon Petroleum Corporation
+Marathon Petroleum,KARMA M. THOMSON,,,,True,False,384131,87433,Marathon Petroleum Corporation
+Marathon Petroleum,RICK D. HESSLING,,,,True,False,382887,87433,Marathon Petroleum Corporation
+Marathon Petroleum,C. TRACY CASE,,,,True,False,385867,87433,Marathon Petroleum Corporation
+Shell,Kimberly Mcneely,Senior Investor Relations Officer,,2015-00-00,,True,302995,283733,Shell Trading International Limited
+Sunoco Inc,V. Steve Herzog,Director of Strategic Planning and Execution,2010-00-00,2012-00-00,False,True,223102,57,"Sunoco, Inc."
+Sunoco Inc,John W McReynolds,President,,2015-00-00,,True,5735,57,"Sunoco, Inc."
+Sunoco Inc,James Stirling Welch,Global Chief Financial Officer & Head ,,2015-00-00,,True,331368,57,"Sunoco, Inc."
+Sunoco Inc,Richard A Cargile,President - Midstream,,2015-00-00,,True,123583,57,"Sunoco, Inc."
+Clean Energy,Rebekah Byers Kcehowski,Host,,,True,False,428141,425881,Global Clean Energy Action Forum
+Clean Energy,Aaron Bielenberg,Founder and CEO,2010-00-00,2013-00-00,False,True,147716,147697,Clean Energy Business Council
+Clean Energy,Daniel Zywietz,,,,True,False,147719,147697,Clean Energy Business Council
+Clean Energy,Soudki Atassi,,,,True,False,147717,147697,Clean Energy Business Council
+GE Power Systems,Robert L Nardelli,CEO,,,False,True,1400,98344,GE power systems
+Antero Midstream Partners,Paul Korus,Board Member ,2019-00-00,,True,True,123832,253467,Antero Midstream Partners
+Enbridge Inc,Duane S Herbst,Chairman,,,True,True,89800,76205,"Enbridge Energy Company, Inc"
+Enbridge Inc,Maureen Kempston Darkes,Director,,,True,True,86818,76205,"Enbridge Energy Company, Inc"
+Kinder Morgan Energy Partners,Gene Braithwaite,Vice President,,,True,True,202562,90627,"Kinder Morgan Energy Partners, L.P."
+Kinder Morgan Energy Partners,Steven J Kean,President,,,True,True,66476,90627,"Kinder Morgan Energy Partners, L.P."
+Kinder Morgan Energy Partners,Steven J Kean,COO,,,True,False,66476,90627,"Kinder Morgan Energy Partners, L.P."
+Sempra LNG,Dale Kelly-Cochrane,VP - terminal services agreement management,,,True,True,118516,118525,Sempra LNG
+Texaco Natural Gas,Gary A Marchiori,Manager of northeast regional office,,,False,True,51531,51532,Texaco Natural Gas
+Transwestern Pipeline,William Kelly Warren,Founder,1959-00-00,1959-00-00,,True,104172,104175,"Transwestern Pipeline Company, LLC"
+Agl Resources,Robert S Jepson Jr,Director,1999-00-00,,True,True,3211,779,AGL Resources
+Agl Resources,D Raymond Riddle,Director,1978-00-00,,False,True,10356,779,AGL Resources
+Agl Resources,Felker W Ward Jr,Director,1988-00-00,,False,True,10350,779,AGL Resources
+Clean Energy Fuels Corp,Andrew J Littlefair,Co-founder,1997-00-00,1997-00-00,True,True,83350,43886,Clean Energy Fuels Corporation
+Clean Energy Fuels Corp,T Boone Pickens,Founder,1997-00-00,1997-00-00,True,True,15095,43886,Clean Energy Fuels Corporation
+Clean Energy Fuels Corp,Stephen Scully,,2014-01-00,,True,False,191354,43886,Clean Energy Fuels Corporation
+Southern Union Company,George L Lindemann,Chairman,,,True,True,10087,753,"Panhandle Eastern Pipe Line Company, LP"
+Southern Union Company,George L Lindemann,Director,,,True,True,10087,753,"Panhandle Eastern Pipe Line Company, LP"
+American Energy,Jeffrey W. Martin,,,,True,False,282455,40360,American Petroleum Institute
+American Energy,Bernie Robert,Vice President - Corp Affairs & Bus Strategy,,2015-00-00,,True,307891,221011,North American Construction Group Ltd.
+American Energy,Kristina Williams,,,,True,False,381972,221011,North American Construction Group Ltd.
+American Energy,Bryan Pinney,Independent Director,,,True,True,306434,221011,North American Construction Group Ltd.
+American Energy,Thomas J Pyle,President,2008-00-00,,True,True,41701,41703,American Energy Alliance
+Arena Energy,Jo Evans,Ex-officio Board Member,,,True,True,387366,387107,Australian Renewable Energy Agency (ARENA)
+Arena Energy,Justin Butcher,Board Member,,,True,True,387363,387107,Australian Renewable Energy Agency (ARENA)
+Aspect Energy,Toby Neugebauer,Director,,,True,True,204050,74469,Aspect Energy
+Aspect Energy,Alex Cranberg,Chairman,1993-00-00,,True,True,74112,74469,Aspect Energy
+British Petroleum,David Nagel,"EVP, BP America",,,False,True,106280,45975,BP plc
+British Petroleum,Robert Dudley,Executive Director ,2009-00-00,2020-00-00,,True,58090,45975,BP plc
+British Petroleum,Lynn Paul Waterman,"Head, Global Lubricants Business",,2015-00-00,,True,319695,45975,BP plc
+British Petroleum,Robert John Sawers,DirectorExecutive Director (on BoD),2015-00-00,,,True,308874,45975,BP plc
+British Petroleum,David Knox,"Managing Director, Australasia Developments",,,False,True,373741,45975,BP plc
+Chesapeake Energy,Jeffrey A Fisher,EVP-Production,2012-12-00,2013-11-00,False,True,120510,325,Chesapeake Energy
+Chesapeake Energy,Luke R Corbett,Board member,2017-00-00,,True,True,3188,325,Chesapeake Energy
+Chesapeake Energy,Douglas J Jacobson,Executive Vice President,,2015-00-00,False,True,5305,325,Chesapeake Energy
+Chesapeake Energy,James R Webb,Executive Vice President - General Counsel and Corporate Secretary,,2015-00-00,False,True,120511,325,Chesapeake Energy
+Chief Oil & Gas,Trevor Rees-Jones,CEO,,,True,True,15219,59234,Chief Oil & Gas LLC
+Columbia Energy,Maria S. Jelescu Dreyfus,Advisory Board Member,,,True,True,436010,162243,Columbia University Center on Global Energy Policy
+Columbia Energy,Leah Stokes,visiting faculty,,,True,False,404447,162243,Columbia University Center on Global Energy Policy
+Columbia Energy,Manuel Pinho,Faculty,,,True,False,162273,162243,Columbia University Center on Global Energy Policy
+Columbia Energy,Klaus Lackner,Faculty,,,True,False,104339,162243,Columbia University Center on Global Energy Policy
+Crescent Point Energy,Trent Stangl,Vice President,,,False,True,310580,118845,Crescent Point Energy Corp
+Crescent Point Energy,Clifford Neil Smith,Chief Operating Officer,,,False,True,322902,118845,Crescent Point Energy Corp
+Dutch Oil,Kimberly Mcneely,Senior Investor Relations Officer,,2015-00-00,,True,302995,84758,Royal Dutch Shell
+Dutch Oil,David Knox,,,,False,False,373741,84758,Royal Dutch Shell
+Elysium Energy,Jim Trimble,CEO,2000-00-00,2004-00-00,False,True,104564,126822,Elysium Energy
+Enbridge,Vernon D Yu,"Senior Vice President, Corporate Planning",,,True,True,314325,89799,"Enbridge, Inc."
+Enbridge,Maureen Kempston Darkes,,,,True,False,86818,89799,"Enbridge, Inc."
+Enbridge,John K Whelen,Sr Vice President & Controller,,2015-00-00,,True,190064,283111,Enbridge Gas Distribution Inc
+Enbridge,Duane S Herbst,Chairman,,,True,True,89800,76205,"Enbridge Energy Company, Inc"
+Enbridge,Maureen Kempston Darkes,Director,,,True,True,86818,76205,"Enbridge Energy Company, Inc"
+Energy Council,Aaron Bielenberg,,,,False,False,147716,147697,Clean Energy Business Council
+Energy Council,Aaron Bielenberg,Founder and CEO,2010-00-00,2013-00-00,False,True,147716,147697,Clean Energy Business Council
+Energy Council,Daniel Zywietz,,,,True,False,147719,147697,Clean Energy Business Council
+Energy Council,Soudki Atassi,,,,True,False,147717,147697,Clean Energy Business Council
+Energy Management Inc,Joe M Allbaugh,Director,2003-12-02,2010-08-20,,True,20675,116439,"Green Energy Management Services Holdings, Inc."
+Energy Management Inc,Steven B Solomon,CEO,1996-12-00,,,True,116437,116439,"Green Energy Management Services Holdings, Inc."
+Energy Management Inc,Michael Fleckenstein,President,2002-00-00,,True,True,400384,400383,"HMS Companies, INC"
+First Co,J David Heaney,Director,2005-00-00,,,True,63562,592,Zions Bancorporation
+First Co,Michael Morris,Executive Vice President,2013-08-00,,True,True,190476,592,Zions Bancorporation
+First Co,Joseph L Reilly,Executive Vice President,2011-07-00,,True,True,121278,592,Zions Bancorporation
+General Oil Inc,Richard Keith Palmer,Finance Manager,1997-00-00,2003-00-00,,True,120171,28610,GE Oil & Gas
+General Oil Inc,Lorenzo Simonelli,CEO,,,True,True,43962,28610,GE Oil & Gas
+General Oil Inc,Albert O Cornelison Jr,Staff VP & Associate General Counsel,1994-02-00,1998-09-00,False,True,3288,28610,GE Oil & Gas
+General Oil Inc,Pierre F Lapeyre Jr,,,,False,False,38388,28610,GE Oil & Gas
+Gpu Energy,Michael J Chesser,President and CEO,,,False,True,8805,164045,GPU Energy
+Gulf Oil,Kermit Roosevelt Jr,vice president,1958-00-00,1964-00-00,False,True,220692,38636,Gulf Oil Corporation
+Gulf Oil,Joseph Petrowski,CEO,2005-00-00,,,True,212166,83822,Gulf Oil LP
+Gulf Oil,John A. Kaneb,CEO,,,False,True,50786,83822,Gulf Oil LP
+Hamilton Oil,Frederic C Hamilton,,,,,False,35665,35666,Hamilton Oil
+Imperial Oil,DANIEL E. LYONS,,,,True,False,385507,87262,Imperial Oil Limited
+Imperial Oil,Miranda C Hubbs,,,,True,False,297271,87262,Imperial Oil Limited
+Irving Oil,Ian Whitcomb,President,,,True,True,389902,87259,Irving Oil Co
+Irving Oil,Sarah Irving,Executive Vice President and Chief Brand Officer,,,True,True,389895,87259,Irving Oil Co
+Irving Oil,K C Irving,founder,,,False,True,210480,87259,Irving Oil Co
+Irving Oil,Kenneth Irving,CEO,,,False,True,210479,87259,Irving Oil Co
+Irving Oil,Maureen Kempston Darkes,Director,,,True,True,86818,87259,Irving Oil Co
+Kern Oil & Refining,Robert Richards,Environmental Health & Safety Manager,,,,True,134457,134460,Kern Oil & Refining Co.
+Kern Oil & Refining,Jake C Belin Jr,President,,,,True,134458,134460,Kern Oil & Refining Co.
+Key Energy Services Inc,David J Breazzano,Board Member,,,,True,12734,193938,Key Energy Services Inc.
+Key Energy Services Inc,Thomas Kenneth Grundman,Chief Financial Officer,1999-07-00,2001-12-00,,True,193937,193938,Key Energy Services Inc.
+Lewis Energy Group,Bobby Rokohl,"General Manager, Navarro Midstream",,,True,True,284118,100250,Lewis Energy Group
+Lewis Energy Group,Randy Dill,Chief Administrative Officer,,,True,True,284110,100250,Lewis Energy Group
+McMoran Oil & Gas,Steve Rusch,"Vice President, EH&S and Government Affairs",1999-00-00,,True,True,226255,205269,Freeport-McMoRan Oil & Gas
+McMoran Oil & Gas,Benno C Schmidt,director emeritus,,,False,True,79841,94947,McMoRan Oil & Gas LLC
+Meridian Oil,Bobby S Shackouls,COO,1993-00-00,1994-00-00,,False,1095,210984,Burlington Resources Oil & Gas Company LP
+Meridian Oil,Jean J. Antonides,,,,False,False,195050,210984,Burlington Resources Oil & Gas Company LP
+Meridian Oil,John A Williams,Senior Vice President of Exploration,1998-07-00,2000-12-00,,True,210985,210984,Burlington Resources Oil & Gas Company LP
+Midland Energy,Syed Javaid Anwar,Founder,,,True,True,333437,333438,Midland Energy Inc
+Murphy Oil,Elisabeth W Keller,Director,2016-00-00,,True,True,298593,135,Murphy Oil Corporation
+Murphy Oil,CHRISTOPHER D. HULSE,,,,True,False,385671,135,Murphy Oil Corporation
+Murphy Oil,LOUIS W UTSCH,,,,True,False,383820,135,Murphy Oil Corporation
+Murphy Oil,MARIA A. MARTINEZ,,,,True,False,383714,135,Murphy Oil Corporation
+National Oil Co,Sultan Ahmed Al Jaber,CEO,,,True,True,106254,79292,Abu Dhabi National Oil Company
+National Oil Co,Mansour bin Zayed Al Nahyan,Director,2005-00-00,,True,True,105669,79292,Abu Dhabi National Oil Company
+Natural Gas Partners,Thomas J N Verhagen,Principal,,,True,False,114458,114435,Natural Gas Partners
+New Energy,Verona Carter,vicepresident,2017-05-00,,True,True,432653,365705,New Fortress Energy
+New Energy,William Griffin,,2019-01-00,,True,False,431649,365705,New Fortress Energy
+New Energy,Katherine Wanner,,2019-01-00,,True,False,431648,365705,New Fortress Energy
+Nexen Petroleum,Sheila Kaul,Company Secretary,,2015-00-00,,False,298473,283814,Nexen Petroleum U.k. Limited
+Nexen Petroleum,Ray Christopher John Riddoch,Senior Vice President,,2015-00-00,,True,307748,283814,Nexen Petroleum U.k. Limited
+Oil & Gas Conservation Commission,Stan Belieu,Deputy Director,1991-00-00,,True,True,114196,176936,Nebraska Oil and Gas Conservation Commission
+Peoples Gas & North Shore Gas,Desiree G Rogers,President,2004-00-00,2008-00-00,False,True,11245,45792,Peoples Gas and North Shore Gas
+Petroleum,Jeffrey W. Martin,,,,True,False,282455,40360,American Petroleum Institute
+Petroleum,David Nagel,"EVP, BP America",,,False,True,106280,45975,BP plc
+Petroleum,Robert Dudley,Executive Director ,2009-00-00,2020-00-00,,True,58090,45975,BP plc
+Petroleum,Lynn Paul Waterman,"Head, Global Lubricants Business",,2015-00-00,,True,319695,45975,BP plc
+Petroleum,Robert John Sawers,DirectorExecutive Director (on BoD),2015-00-00,,,True,308874,45975,BP plc
+Petroleum,David Knox,"Managing Director, Australasia Developments",,,False,True,373741,45975,BP plc
+Petroleum Equipment,Leslie Shockley Beyer,president,2014-00-00,,True,True,158145,80035,Petroleum Equipment Suppliers Association
+Petroleum Equipment,Sheldon R Erikson,Chairman,2002-00-00,2003-00-00,False,True,7241,80035,Petroleum Equipment Suppliers Association
+Philadelphia Gas Works,James Engler,board member,2016-04-27,,True,True,225847,218768,Philadelphia Gas Works
+River Gas,Patrick J Goodman,Director,,,True,True,222911,99959,Kern River Gas Transmission Company
+Rock Energy,Arun Majumdar,Advisor,,,,False,94870,397984,Lime Rock New Energy
+Saudi Aramco,Mohammed Y. Al Qahtani,Executive Vice President of Downstream,,,True,True,383337,104265,Saudi Aramco
+Saudi Aramco,MAJED MOHAMMED SAGGAF,,,,True,False,383760,104265,Saudi Aramco
+Saudi Aramco,MOHAMMED ABDULLAH AL-JADAAN,,,,True,False,383338,104265,Saudi Aramco
+Sunoco Logistics,Thomas J. Sniscak,Lead Counsel in Mariner 2 East Case Before PUC,,,True,True,316667,90629,"Energy Transfer Partners, L.P."
+Sunoco Logistics,Mike Hennigan,President & CEO,,,,True,161818,90629,"Energy Transfer Partners, L.P."
+Tellurian Inc,Samantha Carl-Yoder,"Director, Marketing & International Affairs",2018-06-00,2020-02-00,False,True,403656,341479,Tellurian Inc.
+Tellurian Inc,Amos Hochstein,EVP of LNG Marketing,2017-00-00,,True,True,18975,341479,Tellurian Inc.
+Texas Petrochemicals,Jeffrey M. Nodland,Director,,,False,True,257153,49433,"Texas Petrochemicals, Inc."
+Texas Petrochemicals,Mark C Demetree,Chairman,2004-00-00,2009-00-00,False,True,49431,49433,"Texas Petrochemicals, Inc."
+United Energy,Mary Pat Salomone,Board of Directors,,,,True,117551,177655,Centrus Energy Corp.
+United Energy,Kirkland H Donald,"Member, Board of Directors",2021-06-16,,True,True,189846,177655,Centrus Energy Corp.
+United Energy,Paul E Sullivan,"VP, Oper & Chief Engineer, USEC",2009-02-00,,False,True,65015,177655,Centrus Energy Corp.
+United Energy,Christine M Ciccone,SVP for external relations,2009-08-00,2012-04-00,,True,65014,177655,Centrus Energy Corp.
+Williams Midstream,Alan S Armstrong,President,,2011-01-00,,True,61503,85851,WILLIAMS MIDSTREAM GATHERING & PROCESSING
+Williams Midstream,Rory Miller,President,2011-01-00,,True,True,85852,85851,WILLIAMS MIDSTREAM GATHERING & PROCESSING
+Wood Oil Co,James Louis Mahoney,Vice President of Operations,,,False,True,301816,41463,"Flint Hills Resources, LP"
+Wood Oil Co,Scott Lindemann,,,,True,False,105831,41463,"Flint Hills Resources, LP"
+Wood Oil Co,Steve Orne,,,,True,False,105829,41463,"Flint Hills Resources, LP"
+Wpx Energy,Ralph A Hill,CEO,2011-04-00,,True,True,3800,85853,WPX Energy Inc.
+Buckeye Partners,C Scott Hobbs,,,,False,False,63748,119061,Buckeye Partners L.P.
+Buckeye Partners,Barbara M Baumann,,2014-10-00,,True,False,121587,119061,Buckeye Partners L.P.
+Citizens Energy,Conrad C Lautenbacher,,,,True,False,154766,83361,Citizens for Affordable Energy
+Citizens Energy,Karen Otazo Hofmeister,,,,True,False,154761,83361,Citizens for Affordable Energy
+Total Petrochemicals & Refining,Philippe Guy Marchandise,Agent,,2015-00-00,,False,302048,283762,Total Petrochemicals & Refining
+Total Petrochemicals & Refining,Xavier Pierre Marie Bernard Bontemps,Agent,,2015-00-00,,False,287983,283762,Total Petrochemicals & Refining
+Total Petrochemicals & Refining,Nathalie Brunelle,Agent,,2015-00-00,,False,288630,283762,Total Petrochemicals & Refining
+Alpha International,Stephen P. Mullin,Board Member,,,True,True,282152,282161,Philadelphia Chapter Lambda Alpha International
+Baker Hughes Inc,Nancy Buese,Chief Financial Officer,,,True,True,125636,253,"Baker Hughes, a GE company, LLC"
+Baker Hughes Inc,Rod Christie,Executive Vice President,,,True,True,443254,253,"Baker Hughes, a GE company, LLC"
+Baker Hughes Inc,JENNIFER HARTSOCK,,,,True,False,384464,253,"Baker Hughes, a GE company, LLC"
+Baker Hughes Inc,Lorenzo Simonelli,Chairman,,,True,True,43962,253,"Baker Hughes, a GE company, LLC"
+Basin Exploration Inc,Howard Boigon,Secretary,,,False,False,104548,126536,"Basin Exploration, Inc."
+Basin Exploration Inc,Howard Boigon,Director,,,False,True,104548,126536,"Basin Exploration, Inc."
+Boardwalk Pipeline,Rolf A Gafvert,CEO,,,False,True,124985,119053,Boardwalk Pipeline Partners L.P.
+Boardwalk Pipeline,Thomas E Hyland,,,,True,False,124978,119053,Boardwalk Pipeline Partners L.P.
+Boardwalk Pipeline,Stanley C Horton,,2011-05-00,,True,False,124977,119053,Boardwalk Pipeline Partners L.P.
+Canary LLC,Dan K. Eberhart,CEO,,,True,True,275233,275234,"Canary, LLC"
+Cooper Cameron Corp,Jon Erik Reinhardsen,Independent Director,,2015-00-00,,True,62395,492,Cameron International Corporation
+Cooper Cameron Corp,Brent J Smolik,"Director, Board of Directors",,2015-00-00,,True,7203,492,Cameron International Corporation
+Cooper Cameron Corp,Sheldon R Erikson,President,,2015-00-00,,True,7241,492,Cameron International Corporation
+Cooper Cameron Corp,Franklin Myers,Senior Vice President,,,True,True,7249,492,Cameron International Corporation
+Cooper Cameron Corp,Sheldon R Erikson,Director,,,True,True,7241,492,Cameron International Corporation
+Diamondback,Bentley Jay Anderson,deputy general counsel,,,True,False,67600,37684,Diamondback Capital Management LP
+Diamondback,Lawrence Sapanski,Co-Chief Investment Officer,,,True,True,67598,37684,Diamondback Capital Management LP
+Diamondback,Timothy Higgins,CFO,,,True,False,67595,37684,Diamondback Capital Management LP
+Halliburton Energy Services,Thomas S. Inglesby III,Senior Director,,,,True,352280,80016,"Halliburton Energy Services, Inc."
+Halliburton Energy Services,David J Lesar,Executive Vice President of Finance,1993-12-00,1995-06-00,,True,3289,80016,"Halliburton Energy Services, Inc."
+Koch Pipeline,Todd McKimmey,,,,,False,105823,41469,"Koch Pipeline Company, LP"
+Koch Pipeline,Dave Stecher,Division Manager,,,True,True,75976,41469,"Koch Pipeline Company, LP"
+Koch Pipeline,Bob O'Hair,President,,,True,True,75973,41469,"Koch Pipeline Company, LP"
+Maersk,Michael Pram Rasmussen,Director,,,True,True,116335,116329,Maersk LNG A/S
+Maersk,Claus V. Hemmingsen,Chairman,2019-09-00,2022-10-00,,True,432971,432966,Drilling Company of 1972 A/S
+Maersk,Klaus Greven Kristensen,General Counsel,2017-01-00,2022-12-00,,False,432965,432966,Drilling Company of 1972 A/S
+Minnesota,Jim McNerney,"CEO, chairman ",2001-00-00,2005-00-00,False,True,1418,32235,3M Company
+Minnesota,Mike Roman,CEO,2018-07-00,,True,True,370234,32235,3M Company
+Minnesota,Pedro Pizarro,Board Member,2023-02-08,,True,True,120109,32235,3M Company
+Minnesota,Pamela J Craig,Board Member,2019-05-00,,True,True,122803,32235,3M Company
+Mrc Global,Deborah Gay Adams,Board Member,2018-00-00,,True,True,285390,336577,MRC Global Inc
+New Industries,Daniel DiLella,Board Member,,,True,True,258881,275773,Goodwill Industries of Southern New Jersey and Philadelphia
+Northern Pipeline,Oliver G Richard III,President and CEO,,,False,True,120069,156423,Northern Natural Gas Pipeline
+Northern Pipeline,George L Mazanec,Director,1993-00-00,1998-00-00,False,True,8594,58124,Northern Border Pipeline Company
+Penn Resources,Robert R Penn,Board Member,,,,True,233314,441891,"Penn Resources, Inc."
+Precision Drilling,Darren J Ruhr,Sec & Vice President - Corp Service,,,True,True,308385,246647,Precision Drilling Corporation
+Precision Drilling,Kevin Omar Meyers,Independent Director,,,True,True,59565,246647,Precision Drilling Corporation
+Precision Drilling,Kevin A Neveu,"President, Chief Executive Officer",,2015-00-00,True,True,304543,246647,Precision Drilling Corporation
+Schlumberger Oilfield Services,Gary A. Kolstad,Vice President-Global Accounts,,,False,True,100291,217800,"Schlumberger Oilfield Services, Inc"
+Schlumberger Oilfield Services,Mark Fuller,Field engineer,,,False,False,217801,217800,"Schlumberger Oilfield Services, Inc"
+Transocean Inc,Robert M Sprague,Director,,,True,True,126037,38397,Transocean Ltd.
+Transocean Inc,Robert M Sprague,Board of Director,,,False,True,126037,38397,Transocean Ltd.
+Transocean Inc,Robert L Herrin,Comptroller,2005-00-00,,,False,296586,38397,Transocean Ltd.
+Weatherford,Frederico Justus,CEO,2016-00-00,,True,True,298228,283773,Weatherford International Public Limited Company
+Weatherford,Lance Richard Marklinger,CEO,2015-00-00,,False,True,302152,283773,Weatherford International Public Limited Company
+Weatherford,MARK SWIFT,,,,True,False,383628,283773,Weatherford International Public Limited Company
+Advanced Energy,Bill Ritter,,,,True,False,33966,131998,Advanced Energy Economy Institute
+Advanced Energy,Reed E Hundt,,,,True,False,1981,131998,Advanced Energy Economy Institute
+Advanced Energy,Hemant Taneja,,,,True,False,131993,131998,Advanced Energy Economy Institute
+Flint Hills Resources,James Louis Mahoney,Vice President of Operations,,,False,True,301816,41463,"Flint Hills Resources, LP"
+Flint Hills Resources,Scott Lindemann,,,,True,False,105831,41463,"Flint Hills Resources, LP"
+Flint Hills Resources,Steve Orne,,,,True,False,105829,41463,"Flint Hills Resources, LP"
+"Oil, Standard",Austin Smithson,Policy Advisor,,,,False,449535,3,Chevron
+"Oil, Standard",Mike Wirth,Executive / Senior Vice President,2016-00-00,,,True,58514,3,Chevron
+"Oil, Standard",Shariq Yosufzai,Board Member,,,False,True,442592,3,Chevron
+"Oil, Standard",Mohammed Y. Al Qahtani,Executive Vice President of Downstream,,,True,True,383337,104265,Saudi Aramco
+"Oil, Standard",MAJED MOHAMMED SAGGAF,,,,True,False,383760,104265,Saudi Aramco
+"Oil, Standard",MOHAMMED ABDULLAH AL-JADAAN,,,,True,False,383338,104265,Saudi Aramco
+Babcock & Wilcox,Jan Bertsch,Board Member,2013-00-00,,True,True,63171,105780,The Babcock & Wilcox Company
+Babcock & Wilcox,Kenneth S Siegel,Board Member,2018-00-00,,True,True,6098,105780,The Babcock & Wilcox Company
+Babcock & Wilcox,Roger E Tetrault,Vice President ,1990-00-00,1991-00-00,,True,244601,105780,The Babcock & Wilcox Company
+Babcock & Wilcox,Mary Pat Salomone,Senior Vice-President and Chief Operating Officer,2007-00-00,,,True,117551,105780,The Babcock & Wilcox Company
+Cloud Peak Energy,Bill Owens,Independent Director,,2015-00-00,,True,33969,127012,Cloud Peak Energy Inc.
+Cloud Peak Energy,William T Fox III,Independent Director,,2015-00-00,,True,11404,127012,Cloud Peak Energy Inc.
+Louisiana Oil & Gas Association (LOGA),Don Briggs,President,,,True,True,278580,150627,Louisiana Oil & Gas Association
+National Propane Gas Association,David Lugar,Chairman-Elect,,,True,True,145515,45201,National Propane Gas Association
+Texas Independent Producers & Royalty Owners Association (TIPRO),T D Howell,Director,,,True,True,165791,100119,Texas Independent Producers and Royalty Owners Association
+Texas Independent Producers & Royalty Owners Association (TIPRO),Stephen N Castle,Director,,,True,True,165789,100119,Texas Independent Producers and Royalty Owners Association
