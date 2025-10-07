@@ -14,8 +14,8 @@ import json
 import re
 from fuzzywuzzy import fuzz
 
-# Import Virginia normalization functions
-from virginia_normalization import normalize_name
+# Import name normalization functions
+from name_normalization import normalize_name
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')

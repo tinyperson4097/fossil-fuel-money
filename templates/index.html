@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fossil Fuel Donor Matcher</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .upload-area {
+            border: 3px dashed #ccc;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: #f9f9f9;
+        }
+
+        .upload-area:hover {
+            border-color: #667eea;
+            background: #f0f0ff;
+        }
+
+        .upload-area.dragover {
+            border-color: #667eea;
+            background: #e6e9ff;
+        }
+
+        .upload-icon {
+            font-size: 48px;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        .file-list {
+            margin-top: 20px;
+        }
+
+        .file-item {
+            background: #f5f5f5;
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin: 8px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .file-name {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .remove-file {
+            background: #ff4444;
+            color: white;
+            border: none;
+            padding: 5px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .remove-file:hover {
+            background: #cc0000;
+        }
+
+        .settings {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .setting-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .setting-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .setting-item label {
+            font-size: 14px;
+            color: #555;
+            min-width: 180px;
+        }
+
+        .setting-item input[type="number"] {
+            width: 100px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .setting-item small {
+            color: #999;
+            font-size: 12px;
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 20px;
+        }
+
+        .radio-option {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .radio-option input[type="radio"] {
+            cursor: pointer;
+        }
+
+        .radio-option label {
+            cursor: pointer;
+            min-width: auto;
+        }
+
+        .process-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+            margin-top: 20px;
+        }
+
+        .process-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .process-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .results {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f0f9ff;
+            border-left: 4px solid #667eea;
+            border-radius: 6px;
+            display: none;
+        }
+
+        .results.show {
+            display: block;
+        }
+
+        .stat {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .stat:last-child {
+            border-bottom: none;
+        }
+
+        .stat-label {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .stat-value {
+            color: #333;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .download-btn {
+            width: 100%;
+            padding: 15px;
+            background: #10b981;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 15px;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .download-btn:hover {
+            background: #059669;
+        }
+
+        .error {
+            background: #fee;
+            color: #c33;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .error.show {
+            display: block;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .loading.show {
+            display: block;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: #e0e0e0;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 15px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            width: 0%;
+            transition: width 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .progress-text {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 Fossil Fuel Donor Matcher</h1>
+        <p class="subtitle">Upload donor CSV files to check for fossil fuel company and leadership connections</p>
+        <p style="font-size: 12px; color: #999; margin-bottom: 20px; padding: 10px; background: #f5f5f5; border-radius: 6px;">
+            <strong>Data Sources:</strong> Companies compiled from <a href="https://nofossilfuelmoney.org/company-list/" target="_blank" style="color: #667eea;">nofossilfuelmoney.org/company-list</a>.
+            Leadership compiled from LittleSis data based on companies from <a href="https://nofossilfuelmoney.org/company-list/" target="_blank" style="color: #667eea;">nofossilfuelmoney.org/company-list</a>.
+        </p>
+
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-icon">📁</div>
+            <p><strong>Click to upload</strong> or drag and drop</p>
+            <p style="font-size: 12px; color: #999; margin-top: 5px;">Upload up to 20 CSV files</p>
+            <input type="file" id="fileInput" class="file-input" multiple accept=".csv">
+        </div>
+
+        <div class="file-list" id="fileList"></div>
+
+        <div class="settings">
+            <div class="setting-item">
+                <label for="matchType">Match Against:</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="matchBoth" name="matchType" value="both" checked>
+                        <label for="matchBoth">Both</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="matchCompanies" name="matchType" value="companies">
+                        <label for="matchCompanies">Companies Only</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="matchLeadership" name="matchType" value="leadership">
+                        <label for="matchLeadership">Leadership Only</label>
+                    </div>
+                </div>
+            </div>
+            <div class="setting-item">
+                <label for="fuzzyThreshold">Fuzzy Match Threshold:</label>
+                <input type="number" id="fuzzyThreshold" min="80" max="100" value="95">
+                <small>(80-100, higher = stricter matching)</small>
+            </div>
+        </div>
+
+        <button class="process-btn" id="processBtn" disabled>Process Files</button>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Processing files... This may take a few moments.</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill">0%</div>
+            </div>
+            <div class="progress-text" id="progressText">Processed 0 / 0 donors (0 matches)</div>
+        </div>
+
+        <div class="error" id="error"></div>
+
+        <div class="results" id="results">
+            <h3 style="margin-bottom: 15px;">Results</h3>
+            <div class="stat">
+                <span class="stat-label">Files Processed:</span>
+                <span class="stat-value" id="filesProcessed">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Total Donors Checked:</span>
+                <span class="stat-value" id="totalDonors">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Company Matches:</span>
+                <span class="stat-value" id="companyMatches">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Leadership Matches:</span>
+                <span class="stat-value" id="leadershipMatches">0</span>
+            </div>
+            <div class="stat">
+                <span class="stat-label">Total Matches:</span>
+                <span class="stat-value" id="totalMatches">0</span>
+            </div>
+            <a class="download-btn" id="downloadBtn" href="#" style="display: none;">⬇ Download Results CSV</a>
+        </div>
+    </div>
+
+    <script>
+        let selectedFiles = [];
+
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const fileList = document.getElementById('fileList');
+        const processBtn = document.getElementById('processBtn');
+        const loading = document.getElementById('loading');
+        const error = document.getElementById('error');
+        const results = document.getElementById('results');
+
+        // Click to upload
+        uploadArea.addEventListener('click', () => fileInput.click());
+
+        // File selection
+        fileInput.addEventListener('change', (e) => {
+            handleFiles(Array.from(e.target.files));
+        });
+
+        // Drag and drop
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            handleFiles(Array.from(e.dataTransfer.files));
+        });
+
+        function handleFiles(files) {
+            // Filter for CSV files only
+            const csvFiles = files.filter(f => f.name.toLowerCase().endsWith('.csv'));
+
+            // Check limit
+            if (selectedFiles.length + csvFiles.length > 20) {
+                showError('Maximum 20 files allowed');
+                return;
+            }
+
+            selectedFiles.push(...csvFiles);
+            renderFileList();
+            processBtn.disabled = selectedFiles.length === 0;
+        }
+
+        function renderFileList() {
+            if (selectedFiles.length === 0) {
+                fileList.innerHTML = '';
+                return;
+            }
+
+            fileList.innerHTML = selectedFiles.map((file, index) => `
+                <div class="file-item">
+                    <span class="file-name">${file.name}</span>
+                    <button class="remove-file" onclick="removeFile(${index})">Remove</button>
+                </div>
+            `).join('');
+        }
+
+        function removeFile(index) {
+            selectedFiles.splice(index, 1);
+            renderFileList();
+            processBtn.disabled = selectedFiles.length === 0;
+        }
+
+        function showError(message) {
+            error.textContent = message;
+            error.classList.add('show');
+            setTimeout(() => error.classList.remove('show'), 5000);
+        }
+
+        // Process files
+        processBtn.addEventListener('click', async () => {
+            if (selectedFiles.length === 0) return;
+
+            const formData = new FormData();
+            selectedFiles.forEach(file => {
+                formData.append('files[]', file);
+            });
+            formData.append('fuzzy_threshold', document.getElementById('fuzzyThreshold').value);
+            formData.append('match_type', document.querySelector('input[name="matchType"]:checked').value);
+
+            processBtn.disabled = true;
+            loading.classList.add('show');
+            results.classList.remove('show');
+            error.classList.remove('show');
+
+            // Start progress polling
+            let progressInterval = setInterval(async () => {
+                try {
+                    const progressResponse = await fetch('/progress');
+                    const progressData = await progressResponse.json();
+
+                    const processed = progressData.processed || 0;
+                    const total = progressData.total || 1;
+                    const matches = progressData.matches || 0;
+                    const percentage = Math.round((processed / total) * 100);
+
+                    document.getElementById('progressFill').style.width = percentage + '%';
+                    document.getElementById('progressFill').textContent = percentage + '%';
+                    document.getElementById('progressText').textContent =
+                        `Processed ${processed.toLocaleString()} / ${total.toLocaleString()} donors (${matches.toLocaleString()} matches)`;
+                } catch (e) {
+                    // Ignore polling errors
+                }
+            }, 500); // Poll every 500ms
+
+            try {
+                const response = await fetch('/process', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                clearInterval(progressInterval); // Stop polling
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || 'Processing failed');
+                }
+
+                // Show results
+                document.getElementById('filesProcessed').textContent = data.stats.files_processed;
+                document.getElementById('totalDonors').textContent = data.stats.total_donors;
+                document.getElementById('companyMatches').textContent = data.stats.company_matches;
+                document.getElementById('leadershipMatches').textContent = data.stats.leadership_matches;
+                document.getElementById('totalMatches').textContent = data.stats.any_match;
+
+                if (data.download_url) {
+                    const downloadBtn = document.getElementById('downloadBtn');
+                    downloadBtn.href = data.download_url;
+                    downloadBtn.style.display = 'inline-block';
+                } else {
+                    showError(data.message || 'No matches found');
+                }
+
+                results.classList.add('show');
+
+            } catch (err) {
+                clearInterval(progressInterval);
+                showError(err.message);
+            } finally {
+                clearInterval(progressInterval);
+                loading.classList.remove('show');
+                processBtn.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html>

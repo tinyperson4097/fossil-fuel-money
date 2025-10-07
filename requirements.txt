@@ -1,0 +1,4 @@
+flask==3.0.0
+pandas==2.1.4
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.25.0
